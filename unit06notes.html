@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Intro</title>
+        <style>
+            /* you can do multiple declarations per selector*/
+            /* tomato over road on the p but font family works for all tags*/
+            /* inheritance thing is one property at a time*/
+            
+            
+            body {
+                color: tomato;
+                font-family:Arial, Helvetica, sans-serif;
+                }
+            p { 
+                color:teal;
+                font-size: 2em; /*this should be twice default size*/
+                font-weight:bolder;
+                }
+    
+            p, li {
+                text-align: center;
+            }
+            /* we did this ^ with a group selector which selects more than one element */
+
+            li a {color:deeppink;}
+            /* descendant selector: the space means we are only styling link tags inside li tags */
+            #firstp {color:forestgreen;}
+            /* above is an id selector */
+            .otherthing {color:orange}
+            /* over is a class selector which is the most used selector in CSS documents */
+        </style>
+    </head>
+
+    <body>
+        <p id="firstp"> Lorum ipsum <a href="http://www.google.com">Google Link</a></p>
+        <!-- id values must be unique-->
+        <p class="otherthing">Second paragraph</p>
+        <!-- class attribute values can be used over and over again-->
+        <p>Third paragraph</p>
+        <ul>
+            <li>
+                my list item 
+                <a href="http://www.google.com">Google Link</a>
+            </li>
+        </ul>
+    </body>
+</html>
