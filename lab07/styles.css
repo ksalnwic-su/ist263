@@ -1,0 +1,27 @@
+body {color: steelblue;}
+
+body {background-color:skyblue;}
+
+h1 {color: navy;}
+
+p {
+    background-color: #ffffff;
+    width: 300px;
+    /* to calculate the width, its the width of your box + padding x 2 + border x 2 + margin x 2 */
+    /* for our box: 300px + 40 px + 10px +100px = 450 */
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000000;
+}
+
+a:link {color: navy;}
+
+nav a {background-color:royalblue;}
+
+nav a {color:white;}
+
+nav a:hover {background-color:teal}
+
+nav {padding: 10px;}
+
+nav {margin-bottom: 30px;}
