@@ -6,12 +6,23 @@
         <link rel="stylesheet" href="styles.css">
         <style>
             .part1 {display: flex;
-                background-color: honeydew;
+                background-color: lightyellow;
             margin: 10px;
-            width: 400px;}
+            width: 1415px;}
             .p1a1, .p1a2, .p1a3 {margin: 10px;}
             .p1a1 {float: right;}
             .clear {clear: both;}
+            
+            .part2 {display: flex;
+            background-color: lightyellow;
+            padding: 20px;}
+            .p2a1 {flex: 1; order: 2}
+            .p2a2 {flex: 1; order: 1}
+            .p2a1, .p2a2 {margin: 10px;}
+            .p2a1 {margin-right: 10px;}
+
+
+            
         </style>
     </head>
     <body>
@@ -42,6 +53,7 @@
     </div>
     </div>
     <div class="clear"></div>
+
     <div class="part2">
     <div class="p2a1">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.205402021933!2d-76.14164561033252!3d43.03710962654289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3dfaea8c0cb%3A0x5b532ad17aca3c18!2sVA%20Parking%20Garage!5e0!3m2!1sen!2sus!4v1614271190845!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -60,8 +72,9 @@
            <input type="radio" name="identifier" id="id_friend" value="I'm an Employer"><br>
 
            <label for="comments">Enter your comments:</label><br>
+        <div class="textbox">
            <textarea name="comments" id="comments" rows="10" cols="100">Tell me what you think!</textarea><br>
-
+        </div>
             <input type="submit" value="Send Application">
 
         </form>
