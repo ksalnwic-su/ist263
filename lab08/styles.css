@@ -33,3 +33,6 @@ nav {margin-bottom: 30px;}
 color: rgb(54, 53, 53);}
 
 .bioinfo {flex-basis: 50%;}
+
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 920) {}

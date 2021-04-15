@@ -26,11 +26,22 @@
 }
             .list {clear: both;}
             .flex {display: flex;}
+
+            #skip {
+                position: absolute;
+                left: -999px;
+                background-color: ;
+            }
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }
         </style>
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
+        <a href="#maincontent" id="Skip">Skip to Content</a>
         <nav>
             <a href="index.html">Home |</a>
             <a href="updatedskills.html">Skills |</a>
@@ -44,9 +55,9 @@
     <main>
         <div class="flex">
     <div class="image">
-        <img src="../images/weblogo-me.png" alt="website photo">
+        <img src="../images/weblogo-me.png" alt="">
     </div>
-    
+    <a id="maincontent"></a>
     <div class="bioinfo">
     <p>
         Hello! My name is Katherine Alnwick and I am currently studying <strong>Information Management and Technology</strong> in the School of Information Studies at Syracuse University. More specifically, I am concentrating on Project Management as I am interested in working with peers to successfully complete tasks to help a company advance. My accomplishments and skills are making the Dean’s List consistently, Honor Society, and my organizational and communication skills. I am a sister of two brothers, one older and one younger. I’m a daughter to my mom and dad who raised me on Long Island, New York where I grew a love for warm weather and the beach. Additionally, I grew up skiing almost every single weekend, so have a natural pull to the mountains. I have two dogs, a Golden Retriever, and a mix of a Golden Retriever and Lab who I absolutely love!
