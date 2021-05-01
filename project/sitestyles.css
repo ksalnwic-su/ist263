@@ -1,0 +1,37 @@
+/*color*/
+body {background-color: rgb(201, 228, 250);
+}
+header {background-color: rgb(98, 143, 211);
+    color: white;
+    width: 9%;}
+
+/*logo*/
+.logo {width: 510px;
+float: left;
+margin: 10px;
+border: 2px solid black;
+padding: 10px;
+white-space: normal;
+word-wrap:normal;}
+
+/*nav bar*/
+nav {float: right;
+padding: 10px;
+margin-bottom: 30px;
+border: 2px solid #000000;
+background-color: white;}
+nav a {color: black}
+nav a:hover {background-color: rgb(98, 143, 211);
+color: white;}
+
+/*home page*/
+.travelimages, .dogimages {width: 80px;}
+.intro {float: left;
+word-wrap: break-word;}
+.me {float: right;}
+.personalsuccess {float: left;
+word-wrap: break-word;}
+.profsuccess {float: right;}
+.travel {float: left;}
+.dogs {float: right;}
+.clear {clear: both;}
