@@ -3,13 +3,17 @@ body {background-color: rgb(201, 228, 250);
 }
 header {background-color: rgb(98, 143, 211);
     color: white;
-    width: 9%;}
+    width: 10%;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;}
 
 /*logo*/
-.logo {width: 510px;
+.logo {width: 150px;
 float: left;
 margin: 10px;
 border: 2px solid black;
+border-radius: 25px;
 padding: 10px;
 white-space: normal;
 word-wrap:normal;}
@@ -19,6 +23,7 @@ nav {float: right;
 padding: 10px;
 margin-bottom: 30px;
 border: 2px solid #000000;
+border-radius: 25px;
 background-color: white;}
 nav a {color: black}
 nav a:hover {background-color: rgb(98, 143, 211);
@@ -27,11 +32,304 @@ color: white;}
 /*home page*/
 .travelimages, .dogimages {width: 80px;}
 .intro {float: left;
-word-wrap: break-word;}
-.me {float: right;}
-.personalsuccess {float: left;
-word-wrap: break-word;}
-.profsuccess {float: right;}
-.travel {float: left;}
-.dogs {float: right;}
+word-wrap: break-word;
+border: 2px solid black;
+border-radius: 25px;
+background-color: white;
+padding: 30px;
+margin-bottom: 30px;
+width: 400px;}
+
+.me {border: 2px solid black;
+    border-radius: 25px;
+background-color: white;
+padding: 30px;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 70px;
+float: right; 
+margin-right: 10px;
+white-space: normal;}
+.clear {clear: both;}
+
+.personalsuccess {border: 2px solid black;
+    border-radius: 25px;
+background-color: white;
+padding: 30px;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 200px;
+float: right;}
+.clear {clear: both;}
+
+
+.profsuccess {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    float: left;}
+    .clear {clear: both;}
+
+.travelintro {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    float: right;}
+    .clear {clear: both;}
+
+.imgtamarama {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    width: 510px;
+    display: flex;}
+
+.imgskydiving {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1100px;
+    display: flex;}
+
+.imgicebergs {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1100px;
+    display: flex;}
+
+.imgskydivejump {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1100px;
+    display: flex;}
+
+.question1 {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;}
+
+.dogintro {float: left;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: auto;}
+.clear {clear: both;}
+
+.imgbubba {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3000px;
+    display: flex;}
+
+.imgdogsbed {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3000px;
+    display: flex;}
+
+.imgtongues {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3000px;
+    display: flex;}
+
+/* job page */
+.h1 {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;}
+    .clear {clear: both;}
+
+.workhead {background-color: rgb(98, 143, 211);
+    color: white;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    float: right;}
+
+.workintro {float: right;
+    border: 2px solid black;
+    word-wrap: break-word;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1300px;
+    display: flex;}
+    .clear {clear: both;}
+
+.jobspecifics {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1300px;
+    display: flex;}
+
+.imgmakeup {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3900px;
+    display: flex;}
+
+.imgboard {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3000px;
+    display: flex;}
+
+.imgmoremu {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 4000px;
+    display: flex;}
+
+.inpersonhead {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;}
+
+.imgfk, .imgme, .img1007 {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;        
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3000px;
+    display: flex;}
+
+.imgon {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;        
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 2300px;
+    display: flex;}
+
+/* tools page */
+.toolshead {background-color: rgb(98, 143, 211);
+    color: white;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    float: right;}
+
+.imgflora {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;        
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 3000px;
+    display: flex;}
+
+.piechart, .bargraph {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;        
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;}
+
+.background, .how {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;        
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1200px;
+    display: flex;}
+
+/* conclusions page */
+.learned {background-color: rgb(98, 143, 211);
+    color: white;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    float: right;}
+
+.takeaways, .growth, .path, .profgoals, .values, .core {border: 2px solid black;
+    border-radius: 25px;
+background-color: white;
+padding: 30px;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 400px;
+height: auto;
+float: right;
+display: flex;}
+.clear {clear: both;}
+
+.imgme2 {border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;        
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 1120px;
+    display: flex;}
+
+.final {border: 2px solid black;
+    border-radius: 25px;
+background-color: white;
+padding: 30px;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 1350px;
+height: auto;
+float: right;
+display: flex;}
 .clear {clear: both;}
